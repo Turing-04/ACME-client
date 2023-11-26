@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Compile your project here"
+python3 -m pip install dnslib
+python3 -m pip install requests
+python3 -m pip install flask
+python3 -m pip install pycryptodome
+python3 -m pip install cryptography
+
