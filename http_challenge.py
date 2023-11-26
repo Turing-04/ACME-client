@@ -3,10 +3,7 @@ from threading import Thread
 from multiprocessing import Process
 
 
-#app = flask.Flask(__name__)
 
-
-# ChatGPT helped with the multithreading design because using library Thread didn't work out
 class HTTPChallenge(Process):
     def __init__(self, token, key_auth, ipv4, port=5002):
         super().__init__()
